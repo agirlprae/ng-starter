@@ -8,11 +8,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Ng Starter';
 
-  debugx(event){
-    let val = event,target,value
-    this.title = val
-    //console.log('presss' + event)
-  }
-    
-  }
 }
