@@ -6,12 +6,14 @@ import { ContactComponent } from './contact/contact.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { JumbotonComponent } from './jumboton/jumboton.component';
 import { FeatureComponent } from './feature/feature.component';
+import { NavbarComponent } from './navbar/navbar.component';
 @NgModule({
   declarations: [
     AppComponent,
     ContactComponent,
     JumbotonComponent,
-    FeatureComponent
+    FeatureComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
